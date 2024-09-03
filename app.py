@@ -21,7 +21,7 @@ if "vector" not in st.session_state:
     st.session_state.final_documents=st.session_state.text_splitter.split_documents(st.session_state.docs[:50])
     st.session_state.vectors=Chroma.from_documents(st.session_state.final_documents,st.session_state.embeddings)
 
-st.title("ChatGroq Demo")
+st.title("Langsmith Rag")
 llm=ChatGroq(groq_api_key=GROQ_API,
              model_name="llama3-8b-8192")
 
