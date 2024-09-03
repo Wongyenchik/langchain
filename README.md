@@ -1,7 +1,7 @@
 # Langchain
-## ChatGroq Demo with Streamlit
+## Langsmith Documentation Rag
 ### Overview
-This project is a demo application built using Streamlit, showcasing the integration of LangChain's capabilities with Groq and Ollama models for document retrieval and question answering. The application loads documents, splits them into manageable chunks, creates embeddings using the Ollama model, and then stores these embeddings in a vector database. Users can input queries, and the app will retrieve relevant information from the documents and generate responses using the Groq model.
+This project is an application built using Streamlit, showcasing the integration of LangChain's capabilities with Groq and Ollama models for document retrieval and question answering. The application loads documents, splits them into manageable chunks, creates embeddings using the Ollama model, and then stores these embeddings in a vector database. Users can input queries, and the app will retrieve relevant information from the documents and generate responses using the Groq model.
 
 ### Features
 - Document Loading: Fetches documents from a specified URL using the WebBaseLoader.
